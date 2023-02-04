@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ====================<Bootstrap links starts>====================== -->
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <!-- ====================<Bootstrap links End>====================== -->
+
+  <!-- ---------------------------<icons link start>------------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <!-- ---------------------------<icons link End>------------------------- -->
+
+  <!-- ------------------css page link------------------- -->
+  <link rel="stylesheet" href="index.css" type="text/css">
+
+  <!-- slick slider -->
+  <script src="./BEXERS_files/slick.min.js"></script>
+</head>
+
+<title>HOME PAGE</title>
+
+<body>
+<!-- =========================TOP NAVIGATION BAR START======================= -->
+<section id="sec1">
+    <div class="top-nav py-1 pt-2 pb-1">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-left">
+            <span class="info">Connect With Us :</span>
+            <ul class="list-inline d-inline-block">
+              <li class="list-inline-item"><a class="info d-inline-block p-2" href="#"><i
+                    class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="info d-inline-block p-2" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item"><a class="info d-inline-block p-2" href="#"><i class="fa fa-rss"></i></a>
+              </li>
+              <li class="list-inline-item"><a class="info d-inline-block p-2" href="#"><i class="fa fa-google"></i></a>
+              </li>
+              <li class="list-inline-item"><a class="info d-inline-block p-2" href="#"><i class="fa fa-vimeo"></i></a>
+              </li>
+            </ul>
+          </div>
+
+
+          <!-- mail and phone -->
+          <div class=" col-md-6 text-md-right text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item mx-0 border-right">
+                <a class="info d-inline-block px-lg-2 px-2" href="mailto:info@bexar.com"><span>info@bexar.com</span></a>
+              </li>
+              <li class="list-inline-item mx-0"><a class="info d-inline-block px-lg-2 px-2"
+                  href="callto:1234565523"><span>Call Us Now: </span><span class="text-success">123 456 5523</span></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =========================TOP NAVIGATION BAR END======================= -->
+
+
+  <!-- =========================BOTTOM NAVIGATION BAR START======================= -->
+  <section id="sec2">
+    <div class="navigation bg-white">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg">
+            <!-- -----------nav logo---------- -->
+            <div class="logo">
+              <img src="https://demo.themefisher.com/bexer/images/logo.png" alt="" class="img-fluid">
+            </div>
+            <!-- -----------nav logo end---------- -->
+
+            <!-- ---------toggler button start------- -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarlist"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <ion-icon name="menu"></ion-icon>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarlist">
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Team</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="project.html">Case Study</a>
+                </li>
+
+              </ul>
+
+              <!-- search -->
+              <div class="search px-4 pb-3 pb-lg-0">
+                <button id="searchOpen" class="search-btn"><i class="fa fa-search text-dark"></i></button>
+                <div class="search-wrapper">
+                  <form action="#">
+                    <input class="search-box form-control" id="search" type="search"
+                      placeholder="Type &amp; Hit Enter...">
+                  </form>
+                  <button id="searchClose" class="search-close"><i class="fa fa-close text-dark"></i></button>
+                </div>
+              </div>
+              <!-- get start btn -->
+              <a href="#" class="btn btn-primary text-center"><span>get started</span></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================BOTTOM NAVIGATION BAR END======================= -->
+
+
+  <!-- ============================BACKGROUND IMAGE START======================== -->
+  <section id="sec-3">
+    <div class="bg-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="bg-img-info">
+              <h2>LATEST NEWS 1</h2>
+              <a href="index.html">Home </a><span> Latest News 1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================BACKGROUND IMAGE START======================== -->
+
+  <!-- ========================Latest News=========================== -->
+  <section id="sec13">
+    <div class="container">
+
+      <div class="row g-3">
+        <!-- blog post 1 -->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+          <article class="news-card border-0 rounded-0">
+            <div class="card-type">Article</div>
+            <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-1.jpg"
+              alt="blog-thumb">
+            <div class="card-info">
+              <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                  class="text-dark">1
+                  Sep, 2018</strong></div>
+              <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+              <span class="section-title-border"></span>
+              <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- blog post 2-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+          <article class="news-card border-0 rounded-0">
+            <div class="card-type">Article</div>
+            <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-2.jpg"
+              alt="blog-thumb">
+            <div class="card-info">
+              <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                  class="text-dark">2 Sep, 2018</strong></div>
+              <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+              <span class="section-title-border"></span>
+              <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- blog post 3-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+          <article class="news-card border-0 rounded-0">
+            <div class="card-type">Article</div>
+            <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-3.jpg"
+              alt="blog-thumb">
+            <div class="card-info">
+              <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                  class="text-dark">3 Sep, 2018</strong></div>
+              <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+              <span class="section-title-border"></span>
+              <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+            </div>
+          </article>
+        </div>
+
+
+        <!-- blog post 4-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+            <article class="news-card border-0 rounded-0">
+              <div class="card-type">Article</div>
+              <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-4.jpg"
+                alt="blog-thumb">
+              <div class="card-info">
+                <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                    class="text-dark">3 Sep, 2018</strong></div>
+                <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+                <span class="section-title-border"></span>
+                <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                  mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+              </div>
+            </article>
+          </div>
+
+
+
+          <!-- blog post 5-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+            <article class="news-card border-0 rounded-0">
+              <div class="card-type">Article</div>
+              <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-5.jpg"
+                alt="blog-thumb">
+              <div class="card-info">
+                <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                    class="text-dark">3 Sep, 2018</strong></div>
+                <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+                <span class="section-title-border"></span>
+                <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                  mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+              </div>
+            </article>
+          </div>
+
+
+          <!-- blog post 6-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+            <article class="news-card border-0 rounded-0">
+              <div class="card-type">Article</div>
+              <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-6.jpg"
+                alt="blog-thumb">
+              <div class="card-info">
+                <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                    class="text-dark">3 Sep, 2018</strong></div>
+                <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+                <span class="section-title-border"></span>
+                <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                  mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+              </div>
+            </article>
+          </div>
+
+
+
+          <!-- blog post 7-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+            <article class="news-card border-0 rounded-0">
+              <div class="card-type">Article</div>
+              <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-7.jpg"
+                alt="blog-thumb">
+              <div class="card-info">
+                <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                    class="text-dark">3 Sep, 2018</strong></div>
+                <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+                <span class="section-title-border"></span>
+                <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                  mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+              </div>
+            </article>
+          </div>
+
+
+
+          <!-- blog post 8-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+            <article class="news-card border-0 rounded-0">
+              <div class="card-type">Article</div>
+              <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-8.jpg"
+                alt="blog-thumb">
+              <div class="card-info">
+                <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                    class="text-dark">3 Sep, 2018</strong></div>
+                <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+                <span class="section-title-border"></span>
+                <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                  mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+              </div>
+            </article>
+          </div>
+
+
+
+          <!-- blog post 9-->
+        <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4">
+            <article class="news-card border-0 rounded-0">
+              <div class="card-type">Article</div>
+              <img class="card-img-top rounded-0" src="https://demo.themefisher.com/bexer/images/blog/post-9.jpg"
+                alt="blog-thumb">
+              <div class="card-info">
+                <div class="card-meta text-uppercase mb-2">by <strong class="text-dark">admin</strong>/ on <strong
+                    class="text-dark">3 Sep, 2018</strong></div>
+                <h4><a href="#">elit duied aiusmod tempor did labore dolory</a></h4>
+                <span class="section-title-border"></span>
+                <p class="card-text">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.
+                  mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error. sit voluptatem.</p>
+              </div>
+            </article>
+          </div>
+         
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ========================Latest News=========================== -->
+
+
+  <!-- ==========================FOOTER START========================== -->
+  <section>
+    <footer>
+      <!-- main footer -->
+      <div class="section">
+        <div class="container">
+          <div class="row justify-content-between">
+            <!-- footer content -->
+
+            <div class="col-lg-5 mb-5 mb-lg-0">
+              <!-- logo -->
+
+              <div class="footer-logo mb-4 d-inline-block">
+                <img src="https://demo.themefisher.com/bexer/images/logo.png" alt="" class="img-fluid">
+              </div>
+
+              <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut
+                labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut
+                aliquip.exea
+                commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+              <p class="text-light mb-5">Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                error sit voluptatem.</p>
+              <h4 class="text-white mb-4">Follow Us On</h4>
+              <!-- social links -->
+              <ul class="list-inline social-icon-alt">
+                <li class="list-inline-item">
+                  <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                
+                <!-- service list -->
+                <div class="col-6 mb-5">
+                  <h4 class="text-white mb-4">Services</h4>
+                  <ul class="list-styled">
+                    <li class="mb-3 text-light"><a class="d-block" href="#"><i
+                          class="bi bi-chevron-double-right"></i><span>Company History</span></a></li>
+                    <li class="mb-3 text-light"><a class="d-block" href="#"><i
+                          class="bi bi-chevron-double-right"></i><span>About Us</span></a></li>
+                    <li class="mb-3 text-light"><a class="d-block" href="#"><i
+                          class="bi bi-chevron-double-right"></i><span>Contact Us</span></a></li>
+                    <li class="mb-3 text-light"><a class="d-block" href="#"><i
+                          class="bi bi-chevron-double-right"></i><span>Services</span></a></li>
+                    <li class="mb-3 text-light"><a class="d-block" href="#"><i
+                          class="bi bi-chevron-double-right"></i><span>Privacy Policy</span></a></li>
+                  </ul>
+                </div>
+                
+                <!-- contact info -->
+                <div class="col-6 mb-5">
+                  <h4 class="text-white mb-4">Contact Info</h4>
+                  <ul class="list-unstyled">
+                    <li class="text-light mb-3">9567 Turner Trace Apt. 466 North Willie, BC C3G8A4</li>
+                    <li class="text-light mb-3">+21 123 456 5523 </li>
+                    <li class="text-light mb-3">info@bexar.com</li>
+                  </ul>
+                </div>
+                
+                <!-- newsletter -->
+                <div class="col-12 footer-searchbar">
+                  <h4 class="text-white mb-4">Subscribe Newsletter</h4>
+                  <div class="search-inputbox">
+                    <form action="" method="post">
+                      <div class="email-input"><input type="email" name="email" placeholder="Enter your email"></div>
+                      <div class="sub-input"><input type="submit" value="Subscribe"></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+              <div class="footer2-info">
+                <p><span>Bexar</span> © 2022 All Right Reserved</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+              <div class="footer2-info">
+                <ul class="list-inline">
+                  <li class="list-inline-item mx-0"><a class="d-inline-block px-3 border-right" href="#">Terms of
+                      Service</a></li>
+                  <li class="list-inline-item mx-0"><a class="d-inline-block px-3" href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- ==========================FOOTER END========================== -->
+
+
+</body>
+</html>
